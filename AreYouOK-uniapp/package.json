@@ -1,0 +1,21 @@
+{
+  "name": "areyouok-uniapp",
+  "version": "1.0.0",
+  "description": "上线否微信小程序",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "build": "node build.js && node post-build-fix.js",
+    "build:manual": "node build.js"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "^3.0.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "vite": "^5.0.0"
+  }
+}

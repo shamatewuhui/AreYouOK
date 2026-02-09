@@ -1,0 +1,58 @@
+{
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "8点上线？",
+                "navigationBarBackgroundColor": "#FAF8F5",
+                "navigationBarTextStyle": "black",
+                "backgroundColor": "#FAF8F5"
+            }
+        },
+        {
+            "path": "pages/user/info",
+            "style": {
+                "navigationBarTitleText": "我的信息",
+                "navigationBarBackgroundColor": "#FAF8F5",
+                "navigationBarTextStyle": "black",
+                "backgroundColor": "#FAF8F5"
+            }
+        },
+        {
+            "path": "pages/sign/records",
+            "style": {
+                "navigationBarTitleText": "签到记录",
+                "navigationBarBackgroundColor": "#FAF8F5",
+                "navigationBarTextStyle": "black",
+                "backgroundColor": "#FAF8F5",
+                "enablePullDownRefresh": true
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "8点上线？",
+        "navigationBarBackgroundColor": "#FAF8F5",
+        "backgroundColor": "#FAF8F5"
+    },
+    "condition": {
+        "current": 0,
+        "list": [
+            {
+                "name": "首页",
+                "path": "pages/index/index",
+                "query": ""
+            },
+            {
+                "name": "用户信息",
+                "path": "pages/user/info",
+                "query": ""
+            },
+            {
+                "name": "签到记录",
+                "path": "pages/sign/records",
+                "query": ""
+            }
+        ]
+    }
+}
